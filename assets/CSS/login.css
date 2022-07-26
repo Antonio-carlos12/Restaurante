@@ -1,0 +1,46 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+body{
+    background-color:black
+}
+.back{
+    position:fixed;
+    height: 100%;
+    width:100%;
+    
+    
+}
+.logo{
+    position:absolute;
+    top:40%;
+    left: 50%;
+    transform:translate(-50%,-70%);
+    width: 300px;
+}
+div{
+    text-align: center;
+}
+.inputOne{
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform:translate(-50%,-70%);
+    text-align: center;
+    width: 250px;
+    border-radius:10px;
+
+}
+.inputTwo{
+    position:absolute;
+    top: 64%;
+    left: 50%;
+    transform:translate(-50%,-70%);
+    text-align: center;
+    width: 250px;
+    border-radius:10px;
+}
