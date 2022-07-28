@@ -1,0 +1,100 @@
+
+body{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: none;
+}
+
+
+.espacamentoTop{
+    margin-top: 4vh;
+}
+
+.teste{
+    text-align: center;
+    height:10vw;
+}
+
+.logo{
+    height:9.5vw;
+    background-image: url(../img/madeira.jpeg);
+    
+}
+
+
+.corVerde, .espacoVerde{
+    background-color: rgb(56, 122, 56);
+}
+.espacoVerde{
+    height: 4vh;
+    width: 100%;
+    padding: auto;
+    z-index: 1000;
+    border-left:rgb(56, 122, 56) 1vw;
+}
+.cardapio , .bgEscuro{
+    background-color: rgba(0, 0, 0, 0.459);
+}
+
+.cardapioh2{
+   justify-content: center;
+   text-align: center;
+}
+
+.bgCardapio,.bgCarrinho, .bgvazio{
+    padding: 1vw;
+    background-image: url(../img/madeira.jpeg);
+}
+.bgvazio{
+    margin: 4vw;
+    width: 90%;
+}
+.botaoDeFechar{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 2px 0 2px rgba(0,0,0,.3);
+}
+.redes{
+    display: flex;
+    justify-content: center;
+}
+.redes1,.redes2{
+    display: flex;
+    padding: 2vw;
+}
+.nnn{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh;
+}
+.lnr-eye {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+.nome{
+    color: black;
+}
+.view{
+    position:absolute;
+    top: 34%;
+    left: 92%;
+    width: 5.5%;
+}
+.padding{
+    padding:30px
+}
+
+
+
+.center{
+    text-align:center;
+    align-items:center;
+}
+
+
