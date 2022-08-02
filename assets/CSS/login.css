@@ -44,3 +44,16 @@ div{
     width: 250px;
     border-radius:10px;
 }
+
+.button{
+    position:absolute;
+    background-color: rgb(255, 255, 255); ;
+    color: rgb(0, 0, 0);
+    border: none;
+    top: 74%;
+    left: 50%;
+    transform:translate(-50%,-70%);
+    text-align: center;
+    width: 250px;
+    border-radius:10px;
+}
